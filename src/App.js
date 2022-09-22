@@ -26,14 +26,11 @@ function App() {
 
   const handleInicio = () => {
     setIniciado(!iniciado);
-    console.log(iniciado);
   }
 
 
   //resetar o jogo quando todos os pares forem encontrados
   useEffect(() => {
-    console.log('resetar app');
-    console.log(certos.length);
     if(certos.length === data.length/2){
       setTimeout(() => {
         setCertos([]);
@@ -45,7 +42,6 @@ function App() {
 
   //baralhar os dados
   useEffect(() => {
-    console.log('baralhar app');
     setDataBaralhada(data.sort(() => Math.random() - 0.5));
   }, []);
 
