@@ -61,7 +61,7 @@ const Tile = ({ativos,handleClick,setAtivos,data,certos,setCertos,selecionados,s
 
     return (
     <button className="Tile" onClick={() => (handleTile())}>
-        {desabilitar ? data.Id : mostrar ? <img src={data.imagem} className='Imagem' /> : <img src='http://victorvhpg.github.io/minicurso-react.js/slides/img/logo.png' className='Imagem' />}
+        {desabilitar ? data.Id : mostrar ? <img src={data.imagem} className='Imagem' alt='ERROR'/> : <img src='http://victorvhpg.github.io/minicurso-react.js/slides/img/logo.png' className='Imagem' alt='ERROR' />}
     </button>
     
 )
