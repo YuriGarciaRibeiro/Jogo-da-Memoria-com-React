@@ -3,7 +3,7 @@ import './App.css';
 import Tile from './components/Tile/Tile';
 import { useState,useEffect } from 'react';
 import data from './data/data';
-import { Inicio } from './components/Inicio';
+import { Inicio } from './components/Inicio/Inicio';
 
 
 function App() {
