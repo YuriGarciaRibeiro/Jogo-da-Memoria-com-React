@@ -48,7 +48,7 @@ const Tile = ({ativos,handleClick,setAtivos,data,certos,setCertos,selecionados,s
         }
 
 
-    }, [ativos]);
+    },);
 
     //resetar o jogo
     useEffect(() => {
