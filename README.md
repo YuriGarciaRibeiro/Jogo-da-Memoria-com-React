@@ -1,7 +1,8 @@
 # Jogo da memoria utilizando React.js
+
 # Funcionamento do projeto
 
-<p>para rodar o projeto é necessário possuir o <a href="https://nodejs.org/en/">Node.js</a> instado no computador e a biblioteca do  <a href="https://reactjs.org/">React.js</a><p/> ou acessando o link ao lado <a href="https://jogo-da-memoria-react.netlify.app/">Jogo</a>
+<p>para rodar o projeto é necessário possuir o <a href="https://nodejs.org/en/">Node.js</a> instado no computador.<p/> ou acessando o link ao lado <a href="https://jogo-da-memoria-react.netlify.app/">Jogo</a>
 <br/>
 <img src="https://drive.google.com/uc?export=view&id=1BwzABm2MoMLozwyEcLljtxg3laTlVqr8" width="500">
 <p>
@@ -24,6 +25,3 @@
   <img src="https://dicasdejavascript.com.br/images/instalacao-nodejs-windows/instalador-nodejs-04-personalizar-instalacao.png" width="500"><br>
   <img src="https://dicasdejavascript.com.br/images/instalacao-nodejs-windows/instalador-nodejs-05-ferramenta-compilacao-modulos-nativos.png" width="500"><br>
   <img src="https://dicasdejavascript.com.br/images/instalacao-nodejs-windows/instalador-nodejs-06-Install.png" width="500"><br>
-
-
-
